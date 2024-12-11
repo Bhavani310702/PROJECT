@@ -1,0 +1,612 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  /* background-color: red; */
+  /* width: 100vw;  */
+}
+#header {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  position: sticky;
+  z-index: 3;
+  width: 95vw;
+  top: 0px;
+  background-color: gray;
+}
+img {
+  margin-top: 5vh;
+  margin-left: 5vw;
+}
+button {
+  background-color: green;
+  margin-top: 4vh;
+  border-radius: 10px;
+  height: 3vw;
+  margin-left: auto;
+}
+button:hover {
+  background-color: white;
+}
+#navbar2 {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  position: sticky;
+  height: 15vh;
+  z-index: 1;
+  top: 10vh;
+  background-color: rgb(3, 3, 32);
+  justify-content: center;
+  width: 95vw;
+}
+a {
+  text-decoration: none;
+  margin-top: 10vw;
+  margin-left: 5%;
+  color: white;
+  margin: auto;
+}
+.img1 {
+  margin-left: 8vw;
+  margin-top: 10vh;
+  margin: auto;
+}
+.buton {
+  background-color: orangered;
+  margin-top: 5vh;
+  margin: auto;
+}
+@keyframes buton {
+  from {
+    background-color: chocolate;
+  }
+  to {
+    background-color: purple;
+  }
+}
+.buton:hover {
+  animation-name: buton;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.name {
+  position: absolute;
+  left: 30vw;
+  font-size: larger;
+}
+#second {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95vw;
+  background-image: url(./music\ background2.webp);
+  background-color: rgb(1, 1, 15);
+  margin: auto;
+  background-size: cover;
+  transform: translate(opx, -100vh);
+  animation-name: second;
+  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes second {
+  from {
+    background-image: url(./music\ background.jpg);
+    background-repeat: no-repeat;
+    background-size: 95vw;
+  }
+  to {
+    background-image: url(./music\ background2.webp);
+    background-repeat: no-repeat;
+    background-size: 95vw;
+  }
+}
+#intro {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  height: 110vh;
+}
+.img2 {
+  border: 5px solid white;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  position: relative;
+  top: -10vh;
+  left: -5vw;
+}
+.img3 {
+  border: 5px solid white;
+  position: relative;
+  top: -10vh;
+  left: 40vw;
+  border-bottom-left-radius: 20px;
+}
+.img4 {
+  border: 3px solid white;
+  position: relative;
+  top: 55vh;
+  left: 10vw;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.img5 {
+  border: 5px solid white;
+  position: relative;
+  top: 8vh;
+  left: -5vw;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.img6 {
+  border: 5px double white;
+  background-color: white;
+  position: relative;
+  top: 38vh;
+  left: -3vw;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#intro2 {
+  border: 5px solid rgb(252, 64, 127);
+  display: flex;
+  flex-wrap: wrap;
+  height: 15vh;
+  width: 480px;
+  gap: 2vw;
+  margin-top: -55vh;
+  margin-left: 30vw;
+  border-radius: 50px;
+  background-color: rgb(252, 64, 127);
+}
+.icon {
+  border: 2px solid white;
+  height: 40px;
+  position: relative;
+  top: 3vh;
+  left: 30px;
+  border-radius: 50px;
+  padding: 8px;
+  background-color: white;
+}
+#box {
+  display: flex;
+ flex-wrap: wrap;
+  gap: 3vw;
+  /* width: 100vw; */
+}
+.b1 {
+  border: 2px solid red;
+  position: relative;
+  padding: 30px;
+  height: 10vh;
+  width: 8vw;
+  top: -74vh;
+  left: 25vw;
+  border-radius: 20px;
+}
+#first {
+  flex-wrap: wrap;
+  display: flex;
+  height: 80vh;
+  width: 95vw;
+  margin: auto;
+  border: 2px solid white;
+  background-image: url(./vector\ background.png);
+  background-color: lavender;
+}
+.vector2 {
+  position: relative;
+  left: 75vw;
+  top: -55vh;
+}
+#first .vector {
+  position: relative;
+  animation: rounded 5s linear infinite;
+}
+@keyframes rounded {
+  50% {
+    transform: rotate(10deg);
+  }
+}
+#demo {
+  display: flex;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); */
+  justify-content: center;
+  margin: auto;
+  width: 95vw;
+  gap: 3vw;
+  background-image: url(./background.avif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-wrap: wrap;
+}
+#demo a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  
+}
+#demo h2 {
+  border: 5px solid whitesmoke;
+  text-align: center;
+  color: palevioletred;
+}
+#picture {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  justify-content: center;
+  margin: 5vh;
+  width: 85vw;
+  gap: 5vw;
+}
+#picture h2 {
+  border: 5px solid whitesmoke;
+  text-align: center;
+  color: palevioletred;
+}
+#picture a {
+  text-decoration: none;
+  position: relative;
+  left: 5vw;
+}
+.para {
+  display: grid;
+  width: 95vw;
+  margin: 10vh auto;
+  justify-content: center;
+  background-color: honeydew;
+}
+#feature {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  justify-content: center;
+  margin: 10vh auto;
+  width: 95vw;
+  gap: 5vw;
+  padding: 10vw;
+  box-sizing: border-box;
+  background-color: rgb(3, 3, 36);
+}
+#feature svg {
+  height: 10vh;
+  width: 10vw;
+}
+#feature .boxes {
+  border: 2px solid rgb(144, 144, 243);
+  background-color: rgb(144, 144, 243);
+  text-align: center;
+  padding: 2vw;
+  box-shadow: 0px 0px 15px red;
+}
+.footer {
+  display: grid;
+  justify-content: center;
+  background-color: cadetblue;
+  margin: auto;
+  width: 95vw;
+}
+#check {
+  background-image: url(https://img.freepik.com/free-vector/gradient-karaoke-background_23-2150970013.jpg?semt=ais_hybrid);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 95vw;
+  margin: 10vh auto;
+}
+#check img {
+  animation: rounded 5s ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-duration: 2s;
+}
+#feature .boxes:hover {
+  background-color: orangered;
+}
+#picture .img {
+  animation: ZoomIn 5s ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-duration: 2s;
+}
+@keyframes ZoomIn {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  #header {
+    position: sticky;
+    z-index: 1;
+    width: 95vw;
+    height: 10vh;
+    top: 0px;
+    gap: 3vw;
+    align-items: center;
+  }
+  #header h1,button,img{
+    margin: 0;
+  }
+  #header h1{
+    font-size: 25px;
+  }
+  #navbar2{
+    height: 18vh;
+  }
+  button{
+    height: 25px !important;
+    
+  }
+  #second {
+    height: 130vh !important;
+  }
+  #second #intro {
+    display: none;
+  }
+  .name {
+    position: absolute;
+    left: 7vw;
+    font-size: x-small;
+  }
+  #box {
+    display: flex;
+    flex-wrap: wrap;
+    /* overflow: hidden; */
+    margin-left: -14vw;
+    height: 300px;
+    width: 90vw !important;
+    font-size: small;
+  }
+  .b1 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+     height: 10vh;
+    /* width: 10vw; */
+    top: 30vh !important;
+    left:-5% !important;
+  }
+  #demo a {
+    position: relative;
+    left: 10vw;
+  }
+  .b1 li {
+    font-size: small;
+  }
+  #intro2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    height: 15vh;
+    gap: 1vw;
+    position: absolute;
+    top: 10vh;
+    left: -23vw;
+     width:45vw ;
+   }
+  .icon {
+    height: 3vh !important;
+    position: relative;
+    top: 3vh;
+    left: 5vw !important;
+
+  }
+  #first {
+    display: none;
+  }
+  .vector2 {
+    position: relative;
+    left: 35vw;
+    top: -100vh;
+    height: 10vh;
+    width: 10vw;
+  }
+  #demo h2 {
+    width: 70vw;
+  }
+  #demo a {
+    text-decoration: none;
+    position: relative;
+    left: 5vw;
+}
+}
+/* @media screen and (min-width:320px) and (max-width:768px) {
+  #header {
+    position: sticky;
+    z-index: 1;
+    width: 95vw;
+    height: 10vh;
+    top: 0px;
+    gap: 3vw;
+    align-items: center;
+  }
+  #intro2{
+    width:300px !important; 
+  }
+  #header h1,button,img{
+    margin: 0;
+  }
+  #header h1{
+    font-size: 25px;
+  }
+  #navbar2{
+    
+    height: 18vh;
+  }
+  button{
+    height: 25px !important;
+    
+  }
+  #second {
+    height: 130vh !important;
+  }
+  #second #intro {
+    display: none;
+  }
+  .name {
+    position: absolute;
+    left: 7vw;
+    font-size: x-small;
+  }
+  #box {
+    display: flex;
+    flex-wrap: wrap;
+    height: 300px;
+    font-size: small;
+  }
+  .b1 {
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
+    height: 10vh;
+    width: 30vw;
+    top: 25vh;
+    left: 3vw;
+  }
+  #demo a {
+    position: relative;
+    left: 10vw;
+  }
+  .b1 li {
+    font-size: small;
+  }
+  #intro2 {
+   
+    height: 15vh;
+    gap: 5vw;
+    position: relative;
+    top:50vh;
+}
+   
+  
+  .icon {
+    justify-content: center;
+    height: 5vh;
+    position: relative;
+    top: 3vh;
+    left: 10vw;
+  }
+  #first {
+    display: none;
+  }
+  .vector2 {
+    position: relative;
+    left: 35vw;
+    top: -100vh;
+    height: 10vh;
+    width: 10vw;
+  }
+  #demo h2 {
+    width: 70vw;
+  }
+  #demo a {
+    text-decoration: none;
+    position: relative;
+    left: 5vw;
+}
+} */
+  @media screen and (max-width:1024px) {
+    #header {
+      position: sticky;
+      z-index: 1;
+      width: 95vw;
+      height: 10vh;
+      top: 0px;
+      gap: 3vw;
+      align-items: center;
+    }
+    #intro2{
+      width:500px !important; 
+    }
+    #header h1,button,img{
+      margin: 0;
+    }
+    #header h1{
+      font-size: 25px;
+    }
+    #navbar2{
+      
+      height: 18vh;
+    }
+    button{
+      height: 25px !important;
+      
+    }
+    #second {
+      height: 130vh !important;
+    }
+    #second #intro {
+      display: none;
+    }
+    .name {
+      position: absolute;
+      left: 7vw;
+      font-size: x-small;
+    }
+    #box {
+      display: flex;
+      flex-wrap: wrap;
+      height: 300px;
+  
+      font-size: small;
+    }
+    .b1 {
+      position: relative;
+      overflow: hidden;
+      padding: 15px;
+      height: 10vh;
+      width: 30vw;
+      
+      top: 25vh;
+      left: 20vw !important;
+    }
+    #demo a {
+      position: relative;
+      left: 10vw;
+    }
+    .b1 li {
+      font-size: small;
+    }
+    #intro2 {
+      height: 15vh;
+      gap: 1vw;
+      position: relative;
+      top:50vh;
+     
+     
+    }
+    .icon {
+      height: 5vh;
+      position: relative;
+      top: 3vh;
+      left: 15vw;
+    }
+    #first {
+      display: none;
+    }
+    .vector2 {
+      position: relative;
+      left: 35vw;
+      top: -100vh;
+      height: 10vh;
+      width: 10vw;
+    }
+    #demo h2 {
+      width: 70vw;
+    }
+    #demo a {
+      text-decoration: none;
+      position: relative;
+      left: 5vw;
+  }
+  }
+   
